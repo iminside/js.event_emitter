@@ -1,9 +1,14 @@
 {
   "name": "js.event_emitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Event emitter for es6 classes",
   "main": "./dst/EventEmitter.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/4urbanoff/js.event_emitter.git"
+  },
   "scripts": {
+    "start": "gulp",
     "build": "gulp build"
   },
   "author": "Denis Churbanov",
